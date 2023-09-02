@@ -1,12 +1,15 @@
-/*Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers. */
 
+/* ❓DESCRIPTION
+Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers. */
+
+/* ✅ SOLUTION */
 function even_or_odd(number) {
     return number % 2 === 0 ? 'Even' : 'Odd';
 }
 
 console.log(even_or_odd(2), "Even")
 
-/* TEST CASES
+/* ☑️TEST CASES
 const chai = require('chai');
 const assert = chai.assert;
 
